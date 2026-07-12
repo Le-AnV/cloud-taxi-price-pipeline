@@ -1,5 +1,30 @@
-# environment
+# VITUAL ENVIRONMENT
 .venv/
 
-# dataset
+# PYTHON CACHE
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+__init__.py
+
+# FRONTEND
+inference/frontend/node_modules/
+inference/frontend/dist/
+inference/frontend/.vite/
+
+# ENV FILE
+.env
+inference/.env
+inference/frontend/.env
+
+# DATASET
 data/
+
+# ARTIFACTS
+artifacts/
+
+# MODELS
+models/
+*.pth
+*.pkl
