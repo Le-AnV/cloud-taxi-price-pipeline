@@ -1,0 +1,12 @@
+.git
+.venv
+frontend/node_modules
+frontend/dist
+frontend/.vite
+frontend/.env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+artifacts
+data
